@@ -6,20 +6,52 @@ body{
 }
 /*se coloco esos colores para poder visualizar mejor los cambioas*/
 main{
-    background-color: #cf2222 ;
-    width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 /*se coloco esos colores para poder visualizar mejor los cambioas*/
-article{
-    background-color: #22cf2d;
-    width: 45%;
-    height: 80%;
-    display: inline-flex;
+article{    
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: space-between;
+
 }
 
+section{
+    display: flex;
+    width: 530px;
+    justify-content: space-between;
 
+}
+
+.contenedor{
+    width: 230px;
+    color: white;
+    font-weight: 600;
+    padding: 15px 15px 110px 15px;
+}
+.contenedor h3{
+    margin: 10px 0px;
+}
+
+.first-container{
+    background-color: #008080;
+}
+
+.second-container{
+    background-color: #329999;
+    
+}
+
+.contenedorDiv{
+    font-weight: 600;
+    background-color: #FFFF99;
+    color: #181700;
+    padding: 25px 5px 25px 5px;
+    position: absolute;
+    width: 220px;
+    top: 458px;
+
+}
