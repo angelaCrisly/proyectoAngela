@@ -1,16 +1,15 @@
 *{
     margin: 0;
+    padding: 0;
 }
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
-/*se coloco esos colores para poder visualizar mejor los cambioas*/
 main{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/*se coloco esos colores para poder visualizar mejor los cambioas*/
 article{    
     display: flex;
     flex-direction: column;
@@ -26,7 +25,7 @@ section{
 
 }
 
-.contenedor{
+.container-one{
     width: 230px;
     color: white;
     font-weight: 600;
@@ -51,7 +50,40 @@ section{
     color: #181700;
     padding: 25px 5px 25px 5px;
     position: absolute;
-    width: 220px;
-    top: 458px;
+    margin-left: 10px;
+    width: 200px;
+    top: 400px;
 
+}.container-two p{
+    font-weight: 600;
+    text-align: center;
+   
+}
+.third-container{
+    margin-left: 10px;
+    color: #000606;
+    background-color: #80C0BE;
+    height: 392px;
+    width: 260px;
+}
+.fourth-container{
+    margin-left: 10px;
+    color: #000606;
+    background-color: #B2D8D9;
+    height: 392px;
+    width: 260px;
+}
+.contenedorDiv2{
+    font-weight: 600;
+    background-color: #FFFF99;
+    color: #181700;
+    padding: 15px 5px 15px 5px;
+    position: absolute;
+    margin-left: 23px;
+    width: 200px;
+    top: 400px;
+
+}
+.color{
+    color:#008080;
 }
